@@ -166,12 +166,13 @@
             // 
             this.labelScore.Font = new System.Drawing.Font("宋体", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.labelScore.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.labelScore.Location = new System.Drawing.Point(310, 307);
+            this.labelScore.Location = new System.Drawing.Point(252, 307);
             this.labelScore.Name = "labelScore";
-            this.labelScore.Size = new System.Drawing.Size(70, 50);
+            this.labelScore.Size = new System.Drawing.Size(128, 50);
             this.labelScore.TabIndex = 3;
-            this.labelScore.Text = "00";
+            this.labelScore.Text = "1234";
             this.labelScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelScore.Click += new System.EventHandler(this.labelScore_Click);
             // 
             // timer
             // 

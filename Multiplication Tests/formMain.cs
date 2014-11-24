@@ -138,5 +138,10 @@ namespace Multiplication_Tests
                 labelNumber2.Text = intNumber1.ToString();
             }
         }
+
+        private void labelScore_Click (object sender, EventArgs e)
+        {
+
+        }
     }
 }
