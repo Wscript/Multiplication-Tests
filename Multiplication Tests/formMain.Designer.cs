@@ -170,9 +170,7 @@
             this.labelScore.Name = "labelScore";
             this.labelScore.Size = new System.Drawing.Size(128, 50);
             this.labelScore.TabIndex = 3;
-            this.labelScore.Text = "1234";
             this.labelScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.labelScore.Click += new System.EventHandler(this.labelScore_Click);
             // 
             // timer
             // 
